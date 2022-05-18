@@ -1,0 +1,169 @@
+.main_title{
+    text-align: center;
+    font: bold 22px 'Noto Kufi Arabic', sans-serif;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #5e74f3;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    min-height: 1000px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+#wrap{
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  opacity: .89;
+  width: 98%;
+  padding-top: 25px;
+  margin: 18px auto;
+  border-radius: 5px;
+  /* min-height: 950px; */
+}
+
+.main_menu{
+  float: right;
+  direction: rtl;
+  background-color: #fff000;
+  padding: 4px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.main_menu ul {
+    padding-right: 0px;
+}
+
+.main_menu ul li a{
+    color: #000;
+    font-size: 16px;
+}
+
+.main_menu ul li ul li a{
+   color: #000;
+  font:bold 15px arial !important; 
+}
+
+.pagination_td{
+  text-align:center;
+}
+
+.center_form{
+   position:relative;
+   margin:auto;
+   text-align:center;
+   width:50%;
+}
+
+.my_modal_title{
+  text-align:center;
+  direction:rtl;
+}
+
+.app_form_container{
+	text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.app_users_container{
+	float:left;
+	clear:both;
+	width:100%;
+}
+.anchor_label {
+  font-size: 15px !important;
+}
+
+.fa-my-anchor {
+  color: #000;
+}
+.my-main:active , .my-main:hover , .my-main:focus {
+  background-color: rgb(230, 230, 230);
+  text-decoration: none;
+}
+.fa-my-anchor:active , .fa-my-anchor:hover , .fa-my-anchor:focus {
+  text-decoration: none;
+  color: #3856fa;
+}
+.fa-menu-list {
+  float: left;
+  margin: 0px 10%;
+}
+.fa-menu-img {
+  margin: 25px auto;
+  display: inline-grid;
+  width: 100%;
+  text-align: center;
+  background-color: #eee;
+  padding: 20px;
+}
+.fa-menu-img img {
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.fa-form-template {
+  float: right;
+  width: 100%;
+  text-align: center;
+}
+.fa-my-navbar {
+  width: 100%;
+}
+.fa-my-navbar .fa-template-formgroup {
+  border: grey 2px solid;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #dfdfdf8a;
+  color: black;
+  font-weight: bold;
+  margin: 0px auto;
+  width: 86%;
+  float: right;
+}
+.fa-second-form {
+  float: right;
+  width: 100%;
+}
+.fa-my-navbar .fa-back-button {
+  float: left;
+  width: 130px;
+}
+.fa-rules-button {
+  margin-top: 10px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #9a9a9a;
+}
+.fa-my_page_table {
+  direction: rtl;
+  overflow-x: auto;
+  overflow-y: auto;
+  color: #000;
+  float: left; 
+  width: 100%;
+}
+.fa-my_page_table .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #eaeaeab3;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.fa-my_page_table .table-bordered > tbody > tr > td {
+  background-color: #ffffff54;
+  color: black;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.fa-submit-button {
+  display: block;
+  margin-top: 15px;
+}
