@@ -1,0 +1,7 @@
+{
+  "name": "bootstrap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
